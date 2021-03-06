@@ -1,0 +1,58 @@
+html{
+    background-color: #020202;
+}
+
+.peluka{
+    width: 100%;
+}
+
+.lilo{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+
+.col-40{
+    width: 50%;
+}
+
+/* .lilo .col-40:nth-child(1){
+    background-color: chocolate;
+}
+.lilo .col-40:nth-child(2){
+    background-color:cornflowerblue;
+} */
+
+.lilo .col-40 figure{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.lilo .col-40 figure img{
+    width: 80%;
+}
+
+.lilo .col-40:nth-child(1) div{
+    width: 80%;
+    margin: 120px auto;
+}
+
+.lilo .col-40:nth-child(2) div{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.lilo .col-40 div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 1.1rem;
+}
+
+.lilo .col-40 div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
